@@ -20,6 +20,12 @@ class Artist
     @songs
   end
 
+  def self.create(name)
+    artist = self.new(name)
+    artist.name = name
+    artist      
+    end
+
   def self.find_or_create_by_name
     self.find(name) || self.create(name)
   end
