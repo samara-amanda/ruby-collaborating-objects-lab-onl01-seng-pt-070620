@@ -7,5 +7,6 @@ class Song
 
   def artist=(artist)
     song.artist = self
+  end
 
 end
