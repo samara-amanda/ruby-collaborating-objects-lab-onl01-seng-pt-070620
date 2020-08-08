@@ -5,10 +5,5 @@ class Song
     @name = name
   end
 
-  def artist=(name)
-    if self.artist
-      artist.name
-    end
-  end
 
 end
