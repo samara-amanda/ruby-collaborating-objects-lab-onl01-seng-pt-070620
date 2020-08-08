@@ -7,5 +7,6 @@ class Song
 
   def artist=(name)
     self.artist = Artist.new(name)
+  end
 
 end
